@@ -4,7 +4,9 @@
 
 ---
 
-# 📸 Vista previa
+# Vista previa
+
+<img width="832" height="1472" alt="image" src="https://github.com/user-attachments/assets/1a8202a0-00e7-4037-bfea-f5543a0b260e" />
 
 Diseño inspirado en:
 
@@ -32,7 +34,7 @@ La aplicación incluye:
 
 ---
 
-# 📂 Estructura oficial del proyecto
+# Estructura oficial del proyecto
 
 ```text
 DESARROLLO-WEB-CON-REFLEX/
@@ -57,7 +59,7 @@ DESARROLLO-WEB-CON-REFLEX/
 
 ---
 
-# 📦 Requisitos previos
+# Requisitos previos
 
 Instalar:
 
@@ -68,7 +70,7 @@ Instalar:
 
 ---
 
-# 📥 Clonar el repositorio
+# Clonar el repositorio
 
 ```bash id="6l6grq"
 git clone https://github.com/lorenadreyes01-wq/Desarrollo-Web-con-Reflex.git
@@ -92,7 +94,7 @@ poetry install
 
 ---
 
-# 🧪 Activar entorno virtual
+# Activar entorno virtual
 
 ```bash id="tkwjrz"
 poetry shell
@@ -106,7 +108,7 @@ poetry env activate
 
 ---
 
-# ▶️ Ejecutar el proyecto
+#  Ejecutar el proyecto
 
 ```bash id="3p7u67"
 poetry run reflex run
@@ -120,7 +122,7 @@ http://localhost:3000
 
 ---
 
-# 🏗️ Build producción
+# Build producción
 
 ```bash id="q7o3xr"
 poetry run reflex export
@@ -128,9 +130,9 @@ poetry run reflex export
 
 ---
 
-# ✨ Funcionalidades
+# Funcionalidades
 
-## ✅ Navbar
+## Navbar
 
 * Menú responsive
 * Logo
@@ -139,7 +141,7 @@ poetry run reflex export
 
 ---
 
-## ✅ Hero Section
+## Hero Section
 
 * Imagen principal
 * Texto promocional
@@ -148,7 +150,7 @@ poetry run reflex export
 
 ---
 
-## ✅ Featured Products
+## Featured Products
 
 * Cards responsive
 * Imagen de producto
@@ -158,7 +160,7 @@ poetry run reflex export
 
 ---
 
-## ✅ Promotional Banner
+## Promotional Banner
 
 Banner promocional tipo:
 
@@ -169,7 +171,7 @@ Up to 40% Off
 
 ---
 
-## ✅ Beauty Categories
+## Beauty Categories
 
 Grid de categorías beauty:
 
@@ -180,7 +182,7 @@ Grid de categorías beauty:
 
 ---
 
-## ✅ Footer
+## Footer
 
 * Redes sociales
 * Navegación
@@ -188,7 +190,7 @@ Grid de categorías beauty:
 
 ---
 
-# 🎨 Diseño UI
+# Diseño UI
 
 ## Paleta de colores
 
@@ -213,7 +215,7 @@ MUTED = "#777777"
 
 ---
 
-# 📱 Responsive Design
+# Responsive Design
 
 Compatible con:
 
@@ -229,7 +231,7 @@ width=["100%", "50%", "25%"]
 
 ---
 
-# 📄 pyproject.toml
+# pyproject.toml
 
 ```toml id="ys0n4k"
 [tool.poetry]
@@ -249,7 +251,7 @@ build-backend = "poetry.core.masonry.api"
 
 ---
 
-# ⚠️ Errores comunes
+# Errores comunes
 
 | Error                         | Solución                   |
 | ----------------------------- | -------------------------- |
@@ -260,7 +262,7 @@ build-backend = "poetry.core.masonry.api"
 
 ---
 
-# 📚 Recursos
+# Recursos
 
 * [Reflex Documentation](https://reflex.dev/docs/getting-started/introduction/?utm_source=chatgpt.com)
 * [Poetry Documentation](https://python-poetry.org/docs/?utm_source=chatgpt.com)
@@ -269,7 +271,7 @@ build-backend = "poetry.core.masonry.api"
 
 ---
 
-# 📌 Notas
+# Notas
 
 Este proyecto:
 
@@ -281,7 +283,7 @@ Este proyecto:
 
 ---
 
-# 🧠 Objetivo del proyecto
+# Objetivo del proyecto
 
 Practicar:
 
