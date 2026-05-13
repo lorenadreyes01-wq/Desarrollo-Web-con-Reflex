@@ -27,8 +27,8 @@ La aplicación incluye:
 
 # Tecnologías utilizadas
 
-* [Reflex](https://reflex.dev/?utm_source=chatgpt.com)
-* [Poetry](https://python-poetry.org/?utm_source=chatgpt.com)
+* [Reflex](https://reflex.dev)
+* [Poetry](https://python-poetry.org)
 * Python 3.10+
 * Node.js 18+
 
@@ -264,10 +264,10 @@ build-backend = "poetry.core.masonry.api"
 
 # Recursos
 
-* [Reflex Documentation](https://reflex.dev/docs/getting-started/introduction/?utm_source=chatgpt.com)
-* [Poetry Documentation](https://python-poetry.org/docs/?utm_source=chatgpt.com)
-* [Google Fonts — Syne](https://fonts.google.com/specimen/Syne?utm_source=chatgpt.com)
-* [Google Fonts — DM Sans](https://fonts.google.com/specimen/DM+Sans?utm_source=chatgpt.com)
+* [Reflex Documentation](https://reflex.dev/docs/getting-started/introduction/)
+* [Poetry Documentation](https://python-poetry.org/docs/)
+* [Google Fonts — Syne](https://fonts.google.com/specimen/Syne)
+* [Google Fonts — DM Sans](https://fonts.google.com/specimen/DM+Sans)
 
 ---
 
