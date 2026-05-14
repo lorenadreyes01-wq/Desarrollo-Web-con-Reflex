@@ -504,11 +504,11 @@ def footer():
                 spacing="1",
                 align="start",
             ),
-
+  
             rx.hstack(
-                *[
+                rx.link(
                     rx.box(
-                        rx.text(label, font_size="0.75rem", color="white", font_weight="700"),
+                        rx.text("f", font_size="0.75rem", color="white", font_weight="700"),
                         background="#1a1a1a",
                         border_radius="50%",
                         width="34px",
@@ -518,9 +518,81 @@ def footer():
                         justify_content="center",
                         cursor="pointer",
                         _hover={"background": PINK_DARK},
-                    )
-                    for label in ["f", "yt", "ig", "in", "tw"]
-                ],
+                    ),
+                    href="https://www.facebook.com",
+                    is_external=True,
+                ),
+                rx.link(
+                    rx.box(
+                        rx.text("yt", font_size="0.75rem", color="white", font_weight="700"),
+                        background="#1a1a1a",
+                        border_radius="50%",
+                        width="34px",
+                        height="34px",
+                        display="flex",
+                        align_items="center",
+                        justify_content="center",
+                        cursor="pointer",
+                        _hover={"background": PINK_DARK},
+                    ),
+                    href="https://www.youtube.com",
+                    is_external=True,
+                ),
+                rx.link(
+                    rx.box(
+                        rx.html(
+                            '<svg width="16" height="16" viewBox="0 0 24 24" fill="none"'
+                            ' stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+                            '<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>'
+                            '<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>'
+                            '<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>'
+                            '</svg>'
+                        ),
+                        background="#1a1a1a",
+                        border_radius="50%",
+                        width="34px",
+                        height="34px",
+                        display="flex",
+                        align_items="center",
+                        justify_content="center",
+                        cursor="pointer",
+                        _hover={"background": "#e1306c"},
+                    ),
+                    href="https://www.instagram.com/loeftones?igsh=bmZiNmgyNnpoMXN0&utm_source=qr",
+                    is_external=True,
+                ),
+                rx.link(
+                    rx.box(
+                        rx.text("in", font_size="0.75rem", color="white", font_weight="700"),
+                        background="#1a1a1a",
+                        border_radius="50%",
+                        width="34px",
+                        height="34px",
+                        display="flex",
+                        align_items="center",
+                        justify_content="center",
+                        cursor="pointer",
+                        _hover={"background": PINK_DARK},
+                    ),
+                    href="https://www.linkedin.com",
+                    is_external=True,
+                ),
+                rx.link(
+                    rx.box(
+                        rx.text("tw", font_size="0.75rem", color="white", font_weight="700"),
+                        background="#1a1a1a",
+                        border_radius="50%",
+                        width="34px",
+                        height="34px",
+                        display="flex",
+                        align_items="center",
+                        justify_content="center",
+                        cursor="pointer",
+                        _hover={"background": PINK_DARK},
+                    ),
+                    href="https://www.twitter.com",
+                    is_external=True,
+                ),
                 spacing="2",
                 align="center",
             ),
@@ -533,8 +605,7 @@ def footer():
         background=PINK_LIGHT,
         padding="28px 48px",
     )
-
-
+ 
 def index():
     return rx.box(
         top_bar(),
